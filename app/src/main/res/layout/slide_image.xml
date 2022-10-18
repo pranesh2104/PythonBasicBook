@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slide_images"
+        android:layout_width="139dp"
+        android:layout_height="144dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="564dp"
+        android:src="@drawable/ic_python"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/slide_title"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="477dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:letterSpacing="0.15"
+        android:text="PYTHON"
+        android:textAlignment="center"
+        android:textColor="#252323"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/slide_descr"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="287dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="2dp"
+        android:text="Here we see about Python in Easy Way"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="25sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731">
+
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/back"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ab"
+       android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            android:onClick="ClickLogo"
+            android:src="@drawable/ic_python"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PYTHON"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="16dp"
+            android:textColor="#636363"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed By :-"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#636363"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRANESH"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#4C4B4B"/>
+
+
+    </LinearLayout>
+</LinearLayout>
